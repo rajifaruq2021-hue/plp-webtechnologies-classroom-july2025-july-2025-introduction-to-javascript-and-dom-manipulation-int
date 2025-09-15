@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 JS Assignment - Raji Faruq Ishola</title>
+    <!-- This line connects our CSS file to our HTML -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="profileCard" class="card">
+        <h1>Raji Faruq Ishola</h1>
+        
+        <!-- The text in this paragraph will be changed by our JavaScript -->
+        <p>Status: <span id="userStatus">Student</span></p>
+
+        <h2>My Skills</h2>
+        <!-- This list will be filled by our JavaScript loop -->
+        <ul id="skillsList"></ul>
+
+        <!-- These buttons will trigger our JavaScript functions when clicked -->
+        <button id="colorButton">Change Color</button>
+        <button id="greetButton">Show Greeting</button>
+    </div>
+
+    <!-- This line connects our JavaScript file. 'defer' makes sure the HTML loads first. -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
